@@ -1,0 +1,3 @@
+# Coding in Humanities - Course Development
+
+This repository is a collection of ideas and an initial framework for teaching coding techniques to Humanities students. The main purpose is to be able to identify tasks that can be automated, break down those tasks into smaller ones, and solve them using programming techniques. The information proposed here is largely a guideline on how to approach these problems and set up a working plan of action to solve them. It is therefore irrelevant which programming language is used, the concepts are universal.
