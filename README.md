@@ -4,16 +4,16 @@ This repository is a collection of ideas and an initial framework for teaching c
 
 # Course Modules
 ## Technical
-### 1. Basics
+## 1. Basics
 How computers process instructions - peanut butter sandwich [https://www.youtube.com/watch?v=Ct-lOOUqmyY](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
-### 2. Control Flow
+## 2. Control Flow
 
 When programming, the computer will follow your instructions 100% literally. This means that it's not uncommon for a single semi-colon or a capital letter to break the flow of a program. It is important to imagine how a computer would process the instructions you are giving it. In this way you can find errors easier and be able to fix them
 
 Key to thinking like a programmer [https://www.youtube.com/watch?v=vrmKwQ-JPTA](https://www.youtube.com/watch?v=vrmKwQ-JPTA)
 
 ## Practical
-### 3. Identifying real-world problems
+## 3. Identifying real-world problems
 **IPO tables:** 
 1. **Input** - establish thinking around data types
 	-	Practical: determine what your input is and what data type it is.
@@ -23,8 +23,9 @@ Key to thinking like a programmer [https://www.youtube.com/watch?v=vrmKwQ-JPTA](
 	-	Practical: determine how you want you input to be at the end of the process.
 
 **Finding answers to questions**
+
 In most cases, the answers you find to questions you are searching for will be sufficient, but not exact. Finding answers is about finding something that works similar to what you are building, then tweaking it to fit your use case. 
-### 4. Finding solutions - turning pseudocode into runnable code
+## 4. Finding solutions - turning pseudocode into runnable code
 **Examples**
 1. I am an historian and I need to go through 3000 documents to find specific people and list the sentences their names appear in. I can then read through those sentences manually to find which ones are relevant to my research.
 	-  Input
@@ -48,4 +49,4 @@ In most cases, the answers you find to questions you are searching for will be s
 			-   Sort them from most frequency to least frequent
 		- Output
 			- Display the top 10 elements of the sorted list
-### 5. OOP Defensive programming/testing
+## 5. OOP Defensive programming/testing
