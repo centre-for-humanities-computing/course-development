@@ -50,3 +50,7 @@ In most cases, the answers you find to questions you are searching for will be s
 		- Output
 			- Display the top 10 elements of the sorted list
 ## 5. OOP Defensive programming/testing
+
+# Resources
+
+Python for Digital Humanities channel [https://www.youtube.com/playlist?list=PL2VXyKi-KpYuy_7p4nSE2z0535FDky5zA](https://www.youtube.com/playlist?list=PL2VXyKi-KpYuy_7p4nSE2z0535FDky5zA)
