@@ -54,4 +54,5 @@ In most cases, the answers you find to questions you are searching for will be s
 # Resources
 
 Python for Digital Humanities channel [https://www.youtube.com/playlist?list=PL2VXyKi-KpYuy_7p4nSE2z0535FDky5zA](https://www.youtube.com/playlist?list=PL2VXyKi-KpYuy_7p4nSE2z0535FDky5zA)
+
 Problem solve like a programmer [https://www.youtube.com/watch?v=x77-gT8bWLo](https://www.youtube.com/watch?v=x77-gT8bWLo)
