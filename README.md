@@ -48,6 +48,7 @@ In most cases, the answers you find to questions you are searching for will be s
 
 ### Match current tech to your control flow steps
 ### Effective use of information gathering 
+**Errors are not failures, but indications that something went wrong. They are also breadcrumbs to follow to find the solution**
 
 ## 5. Optimizing code - producing better and more efficient solutions.
 ### Introduction
