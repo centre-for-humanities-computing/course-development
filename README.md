@@ -5,17 +5,27 @@ This repository is a collection of ideas and an initial framework for teaching c
 # Course Modules
 ## Technical
 ## 1. Basics - from the real world to the digital world
+### Introduction
+This module has been designed to help you understand the basic idea behind 'computational thinking' i.e. thinking in a way that helps to logically solve problems. This type of thinking is fundamental to being able to write code and solve computational problems.
+### Content
 How computers process instructions - peanut butter sandwich [https://www.youtube.com/watch?v=Ct-lOOUqmyY](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
 
 When a person thinks about what programming is, they often think about writing strange characters onto a black screen and seeing a waterfall of green coding snippets fill the screen - like in the movie "The Matrix". Quite disappointingly, this isn't what programming is. Programming, in a nutshell, is solving a problem then converting that solution into something a machine (computer) can understand. In fact we do programming every day, we just don't realize it. The purpose of these five modules is to provide you with the tools to convert real-world problems into computational problems then solve them using a programming language. You might be curious to know where you have been using programming in your daily life, so below is an example of that.
 
-Imagine it's a Monday morning and you have a class starting at 09:00 at the university. You arrive at the university at 08:45 - in time to grab a cup of coffee. There are two coffee shops on campus (Coffee Shop A and Coffee Shop B) - you prefer Coffee Shop A, but the lines are usually quite long. So you tell yourself, if there are 4 or fewer people in the line at Coffee Shop A then you'll wait in line, but if there are more then you will go to Coffee Shop B. Congratulations, you've just done some programming!
+Imagine it's a Monday morning and you have a class starting at 09:00 at the university. You arrive at the university at 08:45 - in time to grab a cup of coffee. There are two coffee shops on campus (Coffee Shop A and Coffee Shop B) - you prefer Coffee Shop A, but the lines are usually quite long. So you tell yourself, if there are 4 or fewer people in the line at Coffee Shop A then you'll wait in line, but if there are more then you will go to Coffee Shop B. This is a very simple example of a if-statement in programming, so congratulations, you've just done some programming!
 
-## 2. Control Flow
+### Explanation of independence
+### Explanation of finding answers
 
+## 2. What will the program do - thinking like a computer
+
+### Introduction
 When programming, the computer will follow your instructions 100% literally. This means that it's not uncommon for a single semi-colon or a capital letter to break the flow of a program. It is important to imagine how a computer would process the instructions you are giving it. In this way you can find errors easier and be able to fix them
 
 Key to thinking like a programmer [https://www.youtube.com/watch?v=vrmKwQ-JPTA](https://www.youtube.com/watch?v=vrmKwQ-JPTA)
+
+### Create expectations of what the code should do
+### Identifying your own assumptions which the computer doesn't know
 
 ## Practical
 ## 3. Identifying real-world problems
@@ -54,7 +64,7 @@ In most cases, the answers you find to questions you are searching for will be s
 			-   Sort them from most frequency to least frequent
 		- Output
 			- Display the top 10 elements of the sorted list
-## 5. OOP Defensive programming/testing
+## 5. Optimizing code - producing better and more efficient solutions.
 
 # Resources
 
