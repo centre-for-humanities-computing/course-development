@@ -29,6 +29,7 @@ Key to thinking like a programmer [https://www.youtube.com/watch?v=vrmKwQ-JPTA](
 
 ## Practical
 ## 3. Identifying real-world problems
+### Introduction
 **IPO tables:** 
 1. **Input** - establish thinking around data types
 	-	Practical: determine what your input is and what data type it is.
@@ -37,10 +38,23 @@ Key to thinking like a programmer [https://www.youtube.com/watch?v=vrmKwQ-JPTA](
 3.  **Output** - establish thinking about what you expect to get out
 	-	Practical: determine how you want you input to be at the end of the process.
 
-**Finding answers to questions**
+### Break the problems down into smaller pieces
+### Turn those pieces into control flows
 
-In most cases, the answers you find to questions you are searching for will be sufficient, but not exact. Finding answers is about finding something that works similar to what you are building, then tweaking it to fit your use case. 
 ## 4. Finding solutions - turning pseudocode into runnable code
+### Introduction
+**Finding answers to questions** 
+In most cases, the answers you find to questions you are searching for will be sufficient, but not exact. Finding answers is about finding something that works similar to what you are building, then tweaking it to fit your use case. 
+
+### Match current tech to your control flow steps
+### Effective use of information gathering 
+
+## 5. Optimizing code - producing better and more efficient solutions.
+### Introduction
+### Finding and following best practices
+### How to know what or when to optimize
+
+## Additional Examples Module
 **Examples**
 1. I am an historian and I need to go through 3000 documents to find specific people and list the sentences their names appear in. I can then read through those sentences manually to find which ones are relevant to my research.
 	-  Input
@@ -64,7 +78,6 @@ In most cases, the answers you find to questions you are searching for will be s
 			-   Sort them from most frequency to least frequent
 		- Output
 			- Display the top 10 elements of the sorted list
-## 5. Optimizing code - producing better and more efficient solutions.
 
 # Resources
 
