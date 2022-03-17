@@ -15,6 +15,8 @@ When a person thinks about what programming is, they often think about writing s
 Imagine it's a Monday morning and you have a class starting at 09:00 at the university. You arrive at the university at 08:45 - in time to grab a cup of coffee. There are two coffee shops on campus (Coffee Shop A and Coffee Shop B) - you prefer Coffee Shop A, but the lines are usually quite long. So you tell yourself, if there are 4 or fewer people in the line at Coffee Shop A then you'll wait in line, but if there are more then you will go to Coffee Shop B. This is a very simple example of a if-statement in programming, so congratulations, you've just done some programming!
 
 ### Explanation of independence
+There is no "know-all" guide to programming because each problem has a unique set of difficulties. If this weren't the case then you could just use a program someone else has already written. In many cases, you will use parts of other people's code, but the changes you make are unique to the use case you have. So, one of the most important aspects of programming is to be able to work independently and collaboratively. The independent aspect is mostly centered around being able to visualize what your solution is going to be. You need to understand the problem, develop a plan to solve it, and be able to communicate this to other people. In order to do this, you have to learn to develop an independent way of thinking.  
+
 ### Explanation of finding answers
 
 ## 2. What will the program do - thinking like a computer
