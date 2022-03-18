@@ -36,6 +36,8 @@ The first search result from Google for the query "how can I get access to a tex
 
 **Vetting results**
 
+Now that you are able to find some ways in which to solve the problems, the next step is too see whether those results are the best that you can find. One way to do this is to find at least 3 different sites that provide solutions to the problem, compare them and choose the one with the least amount of steps required. A good rule of thumb is to avoid any unnecessary installations, code that is unreasonably long or code that you don't understand at all. A lot of the time, you will find code that could contain parts which are unfamiliar to you. If you don't understand anything written in the code, then it would be beneficial to break that solution down and figure out how each component of the solution works. This will help you to understand if the code is what you were looking for.
+
 **Practical Exercise**
 
 ## 2. What will the program do - thinking like a computer
