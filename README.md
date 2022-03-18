@@ -39,6 +39,32 @@ The first search result from Google for the query "how can I get access to a tex
 Now that you are able to find some ways in which to solve the problems, the next step is too see whether those results are the best that you can find. One way to do this is to find at least 3 different sites that provide solutions to the problem, compare them and choose the one with the least amount of steps required. A good rule of thumb is to avoid any unnecessary installations, code that is unreasonably long or code that you don't understand at all. A lot of the time, you will find code that could contain parts which are unfamiliar to you. If you don't understand anything written in the code, then it would be beneficial to break that solution down and figure out how each component of the solution works. This will help you to understand if the code is what you were looking for.
 
 **Practical Exercise**
+The following is an exercise that is aimed to put into practice what was covered in the above module. It assumes that you know no programming yet and is rather based around what you would do to solve the problem given that you haven't learned how to write any code yet. There will be three "hints" sections which will give you some help, but the idea is that you wouldn't need them if you follow the guidelines in this module. 
+
+You task is to write a line of code in Python that prints "hello world!" to the screen. You shouldn't install anything on your computer or create any accounts on websites. 
+
+**Hint 1**
+Have you broken down your problem into smaller pieces? 
+Have you assessed what tools you have available? 
+Have you searched the internet for answers and formed an initial solution?
+
+**Hint 2**
+Problem breakdown: 
+What I need to do: print something to the screen
+Tools I have available: Python and the internet
+
+Search queries based on the above:
+"How to print something to the screen using Python"
+"How to write a line of code in Python"
+"How to write code online"
+"How to write code in Python without installing anything"
+
+**Hint 3**
+There are websites where you can write code on the website in Python, click run and it will run the code. This will produce the output that you need. Now that you have this information, you must remember what piece of code you wanted to write?
+
+**Solution**
+The following website has a built-in compiler (confirmed 18 March 2022, so later dates the website might not) https://www.programiz.com/python-programming/online-compiler/ and it even has the code set as default.
+Enter the following code print("Hello world!") into the left box and click the run button. On the right-hand side you will see the results. Congratulations on writing your first piece of code!
 
 ## 2. What will the program do - thinking like a computer
 
