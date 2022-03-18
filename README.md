@@ -22,6 +22,7 @@ This may seem counterintuitive, so here is a practical example. Imagine that you
 Let's dive a little deeper into this example. What are the kinds of questions you could ask when trying to understand a real-world problem? For example, if I have to create a program that finds all the verbs in a document, I need to know where to start. Let's assume no-one can help me until I have my own suggestion, so I need to come up with an initial idea.
 
 ***Initial Idea***
+
 Find out what tools I have available.
 I'm using the Python programming language and I have a folder with 100 documents. 
 
@@ -32,7 +33,9 @@ I search on Google "how can I get access to a document's words in python". This 
 Inline with the previous section, the goal is to be able to find the correct answers.  Often perceptions of what programming make it out to be more intimidating than it actually is. The truth is that programming is made up of very small snippets of code that all work together. It is therefore important to make your search queries as concise and specific as possible, so that you are able to understand the small code snippets. How does this look in practice? Let's take a look at the following example.
 
 The first search result from Google for the query "how can I get access to a text file in python" was the following website (as of 18 March 2022, this could be different depending on the date) https://www.pythontutorial.net/python-basics/python-read-text-file/ and looking at the explanations on the website, they go into detail on how to open files in Python. That is a simple way to find answers.
+
 **Vetting results**
+
 **Practical Exercise**
 
 ## 2. What will the program do - thinking like a computer
