@@ -19,29 +19,35 @@ There is no "know-all" guide to programming because each problem has a unique se
 
 This may seem counterintuitive, so here is a practical example. Imagine that you have a real-world problem, but you cannot ask any one person for help until you have your own solution. What will be the first steps you take? The first steps would be to develop your own solution. Again, this might sound very trivial, since aren't you asking for help because you can't find a solution? Most of the time, this is not the case. Most of the time people ask for help because they don't know where to start, so this forces you to do something. If you can start with a solution, it doesn't matter how bad it might be, it will give the person you are asking the question to a glimpse into your mind. This will make it easier for them to be able to understand your way of thinking. The easier it is for them to understand what you are thinking, the easier it is for them to offer real, productive advice. 
 
-Let's dive a little deeper into this example. What are the kinds of questions you could ask when trying to understand a real-world problem? For example, if I have to create a program that prints "hello world!" to the screen, I need to know where to start. Let's assume no-one can help me until I have my own suggestion, so I need to come up with an initial idea.
+Let's dive a little deeper into this example. What are the kinds of questions you could ask when trying to understand a real-world problem? For example, if I have to create a program that prints "Welcome to my program!" to the screen, I need to know where to start. Let's assume no-one can help me until I have my own suggestion, so I need to come up with an initial idea.
 
-***Initial Idea***
+***Initial Steps***
 
 Find out what tools I have available.
-I'm using the Python programming language and I have a folder with 100 documents. 
+I'm using the Python programming language and I have access to the internet. Assuming you can't ask anyone for help, how would you start solving this problem. 
 
 Search for some quick answers.
-I search on Google "how can I get access to a document's words in python". This gives me a lot of search results about opening Microsoft Word documents in Python. This is not exactly what I need because the documents I have are actually text files, so I try a new search "how can I get access to a text file in python". This gives me some results.
+I search on Google "how to print a sentence on the screen in Python" which gives some useful search results. This whole process might seem a little basic, right? Why would I need to be taking a course which teaches how to search things on Google? That's not exactly what is being taught here, but this is rather an example of the quickest and easiest way to get started. People often think that the process of finding answers is complex and requires indepth knowledge about the subject. However, the truth is that often you can search simple, easy phrases and manually go through the results. This process can be slow, but it is also effective.
 
 ### Finding answers
 Inline with the previous section, the goal is to be able to find the correct answers.  Often perceptions of what programming make it out to be more intimidating than it actually is. The truth is that programming is made up of very small snippets of code that all work together. It is therefore important to make your search queries as concise and specific as possible, so that you are able to understand the small code snippets. How does this look in practice? Let's take a look at the following example.
 
-The first search result from Google for the query "how can I get access to a text file in python" was the following website (as of 18 March 2022, this could be different depending on the date) https://www.pythontutorial.net/python-basics/python-read-text-file/ and looking at the explanations on the website, they go into detail on how to open files in Python. That is a simple way to find answers.
+I'm going to ask you how to "print the contents of a list of strings using a for loop". What is the first step that you need to take? Well, it's pretty clear that since we haven't learned anything about programming, the question doesn't even make sense - this is okay. The first step would then be to understand the question i.e. to break it down into smaller pieces. There are some keyword "list of strings" and "for loop". That's where we are going to start, so we can begin by doing a few searches.
+"What is a list of strings in Python"
+"What is a for loop in Python"
+"How to print a list of strings in Python"
+"How to print the contents of a list of strings using a for loop in Python" (you can always search for the exact question)
+This is a good starting point and we will come back to these searches when we do the advanced exercise at the end of this module. 
 
 **Vetting results**
 
-Now that you are able to find some ways in which to solve the problems, the next step is too see whether those results are the best that you can find. One way to do this is to find at least 3 different sites that provide solutions to the problem, compare them and choose the one with the least amount of steps required. A good rule of thumb is to avoid any unnecessary installations, code that is unreasonably long or code that you don't understand at all. A lot of the time, you will find code that could contain parts which are unfamiliar to you. If you don't understand anything written in the code, then it would be beneficial to break that solution down and figure out how each component of the solution works. This will help you to understand if the code is what you were looking for.
+Now that you are able to find some ways in which to solve the problems, the next step is too see whether those results are the best that you can find. One way to do this is to find at least 3 different sites that provide solutions to the problem, compare them and choose the one with the least amount of steps required. A good rule of thumb is to avoid any unnecessary installations, code that is unreasonably long or code that you don't understand at all. A lot of the time, you will find code that could contain parts which are unfamiliar to you. If you don't understand anything written in the code, then it would be beneficial to break that solution down and figure out how each component of the code works. This will help you to understand if the code is what you were looking for.
 
 **Practical Exercise**
+
 The following is an exercise that is aimed to put into practice what was covered in the above module. It assumes that you know no programming yet and is rather based around what you would do to solve the problem given that you haven't learned how to write any code yet. There will be three "hints" sections which will give you some help, but the idea is that you wouldn't need them if you follow the guidelines in this module. 
 
-You task is to write a line of code in Python that prints "hello world!" to the screen. You shouldn't install anything on your computer or create any accounts on websites. 
+Your task is to write a line of code in Python that prints "hello world!" to the screen. You shouldn't install anything on your computer or create any accounts on websites. 
 
 **Hint 1**
 Have you broken down your problem into smaller pieces? 
@@ -65,6 +71,10 @@ There are websites where you can write code on the website in Python, click run 
 **Solution**
 The following website has a built-in compiler (confirmed 18 March 2022, so later dates the website might not) https://www.programiz.com/python-programming/online-compiler/ and it even has the code set as default.
 Enter the following code print("Hello world!") into the left box and click the run button. On the right-hand side you will see the results. Congratulations on writing your first piece of code!
+
+**Advanced Exercise**
+
+
 
 ## 2. What will the program do - thinking like a computer
 
