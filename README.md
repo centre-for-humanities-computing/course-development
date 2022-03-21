@@ -14,12 +14,12 @@ When a person thinks about what programming is, they often think about writing s
 
 Imagine it's a Monday morning and you have a class starting at 09:00 at the university. You arrive at the university at 08:45 - in time to grab a cup of coffee. There are two coffee shops on campus (Coffee Shop A and Coffee Shop B) - you prefer Coffee Shop A, but the lines are usually quite long. So you tell yourself, if there are 4 or fewer people in the line at Coffee Shop A then you'll wait in line, but if there are more then you will go to Coffee Shop B. This is a very simple example of a if-statement in programming, so congratulations, you've just done some programming!
 
-### Explanation of independence
+### Thinking independently
 There is no "know-all" guide to programming because each problem has a unique set of difficulties. If this weren't the case then you could just use a program someone else has already written. In many cases, you will use parts of other people's code, but the changes you make are unique to the use case you have. So, one of the most important aspects of programming is to be able to work independently and collaboratively. The independent aspect is mostly centered around being able to visualize what your solution is going to be. You need to understand the problem, develop a plan to solve it, and be able to communicate this to other people. In order to do this, you have to learn to develop an independent way of thinking.  
 
 This may seem counterintuitive, so here is a practical example. Imagine that you have a real-world problem, but you cannot ask any one person for help until you have your own solution. What will be the first steps you take? The first steps would be to develop your own solution. Again, this might sound very trivial, since aren't you asking for help because you can't find a solution? Most of the time, this is not the case. Most of the time people ask for help because they don't know where to start, so this forces you to do something. If you can start with a solution, it doesn't matter how bad it might be, it will give the person you are asking the question to a glimpse into your mind. This will make it easier for them to be able to understand your way of thinking. The easier it is for them to understand what you are thinking, the easier it is for them to offer real, productive advice. 
 
-Let's dive a little deeper into this example. What are the kinds of questions you could ask when trying to understand a real-world problem? For example, if I have to create a program that finds all the verbs in a document, I need to know where to start. Let's assume no-one can help me until I have my own suggestion, so I need to come up with an initial idea.
+Let's dive a little deeper into this example. What are the kinds of questions you could ask when trying to understand a real-world problem? For example, if I have to create a program that prints "hello world!" to the screen, I need to know where to start. Let's assume no-one can help me until I have my own suggestion, so I need to come up with an initial idea.
 
 ***Initial Idea***
 
@@ -29,7 +29,7 @@ I'm using the Python programming language and I have a folder with 100 documents
 Search for some quick answers.
 I search on Google "how can I get access to a document's words in python". This gives me a lot of search results about opening Microsoft Word documents in Python. This is not exactly what I need because the documents I have are actually text files, so I try a new search "how can I get access to a text file in python". This gives me some results.
 
-### Explanation of finding answers
+### Finding answers
 Inline with the previous section, the goal is to be able to find the correct answers.  Often perceptions of what programming make it out to be more intimidating than it actually is. The truth is that programming is made up of very small snippets of code that all work together. It is therefore important to make your search queries as concise and specific as possible, so that you are able to understand the small code snippets. How does this look in practice? Let's take a look at the following example.
 
 The first search result from Google for the query "how can I get access to a text file in python" was the following website (as of 18 March 2022, this could be different depending on the date) https://www.pythontutorial.net/python-basics/python-read-text-file/ and looking at the explanations on the website, they go into detail on how to open files in Python. That is a simple way to find answers.
@@ -60,7 +60,7 @@ Search queries based on the above:
 "How to write code in Python without installing anything"
 
 **Hint 3**
-There are websites where you can write code on the website in Python, click run and it will run the code. This will produce the output that you need. Now that you have this information, you must remember what piece of code you wanted to write?
+There are websites where you can write code on the website in Python, click run and it will run the code. This will produce the output that you need. Now that you have this information, do you remember which piece of code you wanted to write?
 
 **Solution**
 The following website has a built-in compiler (confirmed 18 March 2022, so later dates the website might not) https://www.programiz.com/python-programming/online-compiler/ and it even has the code set as default.
