@@ -50,11 +50,13 @@ The following is an exercise that is aimed to put into practice what was covered
 Your task is to write a line of code in Python that prints "hello world!" to the screen. You shouldn't install anything on your computer or create any accounts on websites. 
 
 **Hint 1**
+
 Have you broken down your problem into smaller pieces? 
 Have you assessed what tools you have available? 
 Have you searched the internet for answers and formed an initial solution?
 
 **Hint 2**
+
 Problem breakdown: 
 What I need to do: print something to the screen
 Tools I have available: Python and the internet
@@ -66,9 +68,11 @@ Search queries based on the above:
 "How to write code in Python without installing anything"
 
 **Hint 3**
+
 There are websites where you can write code on the website in Python, click run and it will run the code. This will produce the output that you need. Now that you have this information, do you remember which piece of code you wanted to write?
 
 **Solution**
+
 The following website has a built-in compiler (confirmed 18 March 2022, so later dates the website might not) https://www.programiz.com/python-programming/online-compiler/ and it even has the code set as default.
 Enter the following code print("Hello world!") into the left box and click the run button. On the right-hand side you will see the results. Congratulations on writing your first piece of code!
 
