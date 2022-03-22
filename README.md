@@ -114,7 +114,7 @@ In most cases, the answers you find to questions you are searching for will be s
 **Errors are not failures, but indications that something went wrong. They are also breadcrumbs to follow to find the solution**
 **Can you reproduce the errors in isolation**
 
-## 5. Optimizing code - producing better and more efficient solutions.
+## 5. Optimizing code - producing better and more efficient solutions
 ### Introduction
 ### Finding and following best practices
 ### How to know what or when to optimize
