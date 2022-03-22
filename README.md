@@ -47,7 +47,7 @@ Now that you are able to find some ways in which to solve the problems, the next
 
 The following is an exercise that is aimed to put into practice what was covered in the above module. It assumes that you know no programming yet and is rather based around what you would do to solve the problem given that you haven't learned how to write any code yet. There will be three "hints" sections which will give you some help, but the idea is that you wouldn't need them if you follow the guidelines in this module. 
 
-Your task is to write a line of code in Python that prints "hello world!" to the screen. You shouldn't install anything on your computer or create any accounts on websites. 
+Your task is to write a line of code in Python that prints "Welcome to my program!" to the screen. You shouldn't install anything on your computer or create any accounts on websites. 
 
 **Hint 1**
 
@@ -74,7 +74,7 @@ There are websites where you can write code on the website in Python, click run 
 **Solution**
 
 The following website has a built-in compiler (confirmed 18 March 2022, so later dates the website might not) https://www.programiz.com/python-programming/online-compiler/ and it even has the code set as default.
-Enter the following code print("Hello world!") into the left box and click the run button. On the right-hand side you will see the results. Congratulations on writing your first piece of code!
+Enter the following code print("Welcome to my program!") into the left box and click the run button. On the right-hand side you will see the results. Congratulations on writing your first piece of code!
 
 **Advanced Exercise**
 
