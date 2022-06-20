@@ -18,3 +18,5 @@ Problem solve like a programmer [https://www.youtube.com/watch?v=x77-gT8bWLo](ht
 # Ideas
 ### Bash script that completely new users can run to push to github, so they can start having version control from day 1
 This will allow students who are new to coding to be able to look back at their mistakes and see the progression of what they have done. If we consider how Jupyter Notebook simply gives the students the ability to write code, the problem we run into is that students need to be able to move back and forth between (possibly) better code they wrote yesterday, so that will give them the confidence to not be scared to experiment with their code. However, what we need to do is make the process of simply "saving" their work, i.e. pushing to a repo, as simple as possible. A bash script which allows them to do it in one click could be the solution to this problem.
+
+ - Mention in each module what the learners are going to learn - bullet points.
