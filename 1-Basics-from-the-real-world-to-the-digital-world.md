@@ -1,6 +1,8 @@
 ## 1. Basics - from the real world to the digital world
 ### Introduction
-This module has been designed to help you understand the basic idea behind 'computational thinking' i.e. thinking in a way that helps to logically solve problems. This type of thinking is fundamental to being able to write code and solve computational problems.
+This module has been designed to help you understand the basic idea behind 'computational thinking' i.e. thinking in a way that helps to logically solve problems. This type of thinking is fundamental to being able to write code and solve computational problems. This course is mainly about problem solving because essentially what programmers do is they solve problems. Writing code is just a structured way to get the computer to understand what you want it to do. The great thing about this is that it means you can apply what you learn here to your daily life - not just programming. 
+> Computational thinking is the thought processes involved in formulating a problem and expressing its solution(s) in such a way that a computer - human or machine - can effectively carry out. 03:54 (https://www.youtube.com/watch?v=V9Xy18YEK9M)
+
 ### Content
 How computers process instructions - peanut butter sandwich [https://www.youtube.com/watch?v=Ct-lOOUqmyY](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
 
