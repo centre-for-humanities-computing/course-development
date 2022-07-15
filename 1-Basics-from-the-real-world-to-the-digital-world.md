@@ -3,6 +3,8 @@
 This module has been designed to help you understand the basic idea behind 'computational thinking' i.e. thinking in a way that helps to logically solve problems. This type of thinking is fundamental to being able to write code and solve computational problems. This course is mainly about problem solving because essentially what programmers do is they solve problems. Writing code is just a structured way to get the computer to understand what you want it to do. The great thing about this is that it means you can apply what you learn here to your daily life - not just programming. 
 > Computational thinking is the thought processes involved in formulating a problem and expressing its solution(s) in such a way that a computer - human or machine - can effectively carry out. 03:54 (https://www.youtube.com/watch?v=V9Xy18YEK9M)
 
+Everyone is - at least at the end of your eductional program - going to have to solve a novel problem. I am of course referring to writing your thesis which will deal with a topic that is not yet solved. You need to have a clear way of thinking to solve that problem, even if your thesis doesn't have anything to do with programming. 
+
 ### Content
 How computers process instructions - peanut butter sandwich [https://www.youtube.com/watch?v=Ct-lOOUqmyY](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
 
