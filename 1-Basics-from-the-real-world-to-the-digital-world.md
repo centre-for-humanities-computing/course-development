@@ -5,6 +5,9 @@ This module has been designed to help you understand the basic idea behind 'comp
 
 Everyone is - at least at the end of your eductional program - going to have to solve a novel problem. I am of course referring to writing your thesis which will deal with a topic that is not yet solved. You need to have a clear way of thinking to solve that problem, even if your thesis doesn't have anything to do with programming. 
 
+### How do we solve problems in our everyday life?
+Problem solving is happening in our brains every second of every day, but most of it happens so quickly and smoothly that we don't notice it. We also have the added benefit that in our local environment, there are many assumptions we make because the more time we spend in an environment, the more efficient our behaviour becomes. For example, suppose you are talking to a friend with whom you grew up in the same town. Both of you know that layout of that town quite well because you grew up there.
+
 ### Content
 How computers process instructions - peanut butter sandwich [https://www.youtube.com/watch?v=Ct-lOOUqmyY](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
 
