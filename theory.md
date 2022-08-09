@@ -63,7 +63,21 @@ On the other hand, a logical error is one in which your program runs, but it's n
 The best way to deal with errors that you can't seem to fix is to take a break from the code and do something else. Come back to the code at a later time and look through it with fresh eyes. Often you will notice things that you didn't notice before and this could help you to solve the problem much easier. The main takeaway from error messages is that you mustn't be overwhelmed by them, they are there to help you find the error and they don't indicate you have failed.
 
 ## The exercise
-The first exercise you are going to actually program without knowing how to program. Sounds impossible, right? Well, it's possible if you understood the previous lessons. Just like in the real world, the task is not going to be laid out perfectly, but rather you have to decide what is the best way to do it. In programming languages, it's customary for the first program to print the words "Hello world!", so to keep with custom, that is your tasks. You can do this however you want, but the following are a few tips
+The first exercise you are going to actually program without knowing how to program. Sounds impossible, right? Well, it's possible if you understood the previous lessons. Just like in the real world, the task is not going to be laid out perfectly, but rather you have to decide what is the best way to do it. In programming languages, it's customary for the first program to print the words "Hello world!", so to keep with custom, you task to to print "Hello world!" to the screen using the Python programming language. You can do this however you want, but the following are a few tips
 1) Think about Occam's Razor (the simplest solution is usually the optimal one)
 2) Don't ask anyone for help - if you get frustrated then take a break and walk around. The point is for you to solve the problem, not someone else. 
-3) If you have tried absolutely everything and you can't figure out the answer, then tell me you can't figure it out, but you have to include what you have tried.
+3) If you have tried absolutely everything and you can't figure out the answer, then read exercise hint 1.
+
+### Exercise hint 1
+The most difficult step in solving a problem is knowing where to start. When you have no idea what to do, the problem may seem overwhelming, but if you don't know what to do then the best place to look for answers is from what other people have done. Since we have the internet and the world is becoming more and more connected, there are many different ways to find out how other people have solved the problem or similar problems. You can use those as starting points to solve your problem. A good rule of thumb to help with this is asking yourself what, why, how and where. 
+- **What** am I doing? 
+    -   Looking for a way to print "Hello world!" to the screen 
+- **Why** am I doing this? 
+    -   As a way to understand how to solve problems that I don't have concrete instructions for.
+- **How** am I going to do this? 
+    -   I don't know yet, I need to use the Python programming language - which I don't know - but that provides some context. 
+    -   These keywords phrases "printing in the Python programming language" or "how to print hello world in the Python programming language" are good starting points.
+- **Where** am I going to do this? 
+    -  I need to find somewhere to write the code, so key phrases such as "where can I write Python programming code" could be useful.
+
+Using these clues, you can try find some more concrete answers. Of course, the phrases are just to get you to understand the basic through process and you can use whatever means to get the task done. The fundamental principles are always keep it as simple as possible. Especially for these exercises, the answers are should be very simple, so if you find something that looks extremely complicated then try look for something simpler. You can even search on YouTube for videos explaining these concepts because there are great resources published on YouTube for people learning to write code. One last point is that you don't have to feel overwhelmed by this. If you are getting nowhere and feeling frustrated then take a break and come back to the problem later. If you are still not finding a solution then move on the exercise hint 2.
