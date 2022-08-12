@@ -99,3 +99,29 @@ The easiest way to do this exercise is to simply search "online Python editor" o
 Now that you have it running, you can play around with the code. It's always good to experiment with what's going on because I could explain to you every detail, but it might not make sense to everyone. When you are working with the code yourself, you can experiment with changing the code and observe how the results change. So a few things you could try is remove some elements of the code and see what happens. Replace the quotation marks (") with apostrophes ('), does the code still run? More importantly is it still giving the expected output? What happens when you remove the last close round bracket ())? Does the code still run or does it give an error? Can you replace the round brackets () with square brackets []? If you get an error doing this then can you draw the conclusion that for a print statement you can use round brackets and not square brackets? One final experiment you can try is deleting everything from the window and retyping it from memory. Can you get it running again or does it give an error? If it gives you can error, can you understand the error message?
 
 You don't have to answer the questions above or you can try other experiments. The point is to get it working then break it then fix again. This is all to make you think about what's happening and what the results are if you change the code in a certain way. That being said, if the process can be so simple, then you might be wondering what's the point of setting up a Python environment on your own computer? For starters, if you don't have access to the internet then you can't run anything online. However, more important than that, the online Python editors are usually very basic and don't include more advanced packages and libraries that you might need. So, when you are working on developing programs for specific tasks, you will need to setup environments of your own, but remember to keep it simple. If all you need to do is print a simple sentence then the online editors are sufficient. A big component of programming (and problem solving in general) is to get the best results, with the least effort in the most efficient way possible. As was discussed previously, though, you won't always achieve this because of time, lack of knowledge or other constraints. So, don't worry about that for now, but rather focus on getting it working and keeping it simple.
+
+## A systematic way to approach computational tasks
+It might still be a bit difficult to find out where to start when solving a problem, so there is a useful tool that you can use called an IPO (input, processing and output) table. It's a simple table where you have three columns with the previously mentioned names: input, processing and output. Using an IPO table, we can outline the print("Hello World!") example from earlier. 
+
+| Input | Processing | Output |
+|-------|------------|--------|
+|Words the need to be displayed on the screen, "Hello World!" in this case.| We will use the print() function.| "Hello world!" is displayed on the screen|
+
+This is a very simple example, but it's a good way to breakdown what is required for the task at hand. In these kinds of simple examples it's a little tricky to understand why this would be useful, but in more complex examples it is very useful to understand exactly what is being passed as input into the program and what you expect as output. This is especially true when you have complex programs that rely on the output of one step to become the input of another one. For example, image you want to wash your clothes, so you create the following steps
+
+**Step 1 - Wash clothes** 
+| Input | Processing | Output |
+|-------|------------|--------|
+|Clothes, washing liquid and washing machine| Place clothes in washing machine and start washing | Wet clothes|
+
+**Step 2 - Dry clothes**
+| Input | Processing | Output |
+|-------|------------|--------|
+| Wet clothes and dryer | Place wet clothes in dryer, select dryer program and start the process | Dry clothes
+
+**Step 3 - Fold clothes**
+| Input | Processing | Output |
+|-------|------------|--------|
+| Laundry basket and dry clothes | For each item of clothing, remove it from the basket, fold it and packet away | Folded clothes in the cupboard |
+
+From the above explanation you can see the the output of step 1 and 2 form the input of step 2 and 3 respectively. Step 3 also has laundry basket, but that's perfectly fine if you have planned to do that. You realize, though, when looking through your folded clothes that there is still a stain on one of your shirts. You go through your IPO table and you find out that you didn't actually use the washing liquid, so the program ran effectively, but it didn't work as planned. Luckily, because you have written down your IPO tables, you can easily find the mistake. IPO tables are a great way to visualize thought process in a way that is easy to follow, thus easy to execute. Since you have everything written down, you can go through the plan to easily find where any mistakes could've been made that would affect the final results.
