@@ -62,13 +62,13 @@ On the other hand, a logical error is one in which your program runs, but it's n
 
 The best way to deal with errors that you can't seem to fix is to take a break from the code and do something else. Come back to the code at a later time and look through it with fresh eyes. Often you will notice things that you didn't notice before and this could help you to solve the problem much easier. The main takeaway from error messages is that you mustn't be overwhelmed by them, they are there to help you find the error and they don't indicate you have failed.
 
-## The exercise
+## Exercise 1
 The first exercise you are going to actually program without knowing how to program. Sounds impossible, right? Well, it's possible if you understood the previous lessons. Just like in the real world, the task is not going to be laid out perfectly, but rather you have to decide what is the best way to do it. In programming languages, it's customary for the first program to print the words "Hello world!", so to keep with custom, you task to print "Hello world!" to the screen using the Python programming language. You can do this however you want, but the following are a few tips
 1) Think about Occam's Razor (the simplest solution is usually the optimal one)
 2) Don't ask anyone for help - if you get frustrated then take a break and walk around. The point is for you to solve the problem, not someone else. 
 3) If you have tried absolutely everything and you can't figure out the answer, then read exercise hint 1.
 
-### Exercise hint 1
+### Exercise 1 hint 1
 The most difficult step in solving a problem is knowing where to start. When you have no idea what to do, the problem may seem overwhelming, but if you don't know what to do then the best place to look for answers is from what other people have done. Since we have the internet and the world is becoming more and more connected, there are many different ways to find out how other people have solved the problem or similar problems. You can use those as starting points to solve your problem. A good rule of thumb to help with this is asking yourself what, why, how and where. 
 - **What** am I doing? 
     -   Looking for a way to print "Hello world!" to the screen 
@@ -82,7 +82,7 @@ The most difficult step in solving a problem is knowing where to start. When you
 
 Using these clues, you can try find some more concrete answers. Of course, the phrases are just to get you to understand the basic through process and you can use whatever means to get the task done. The fundamental principles are always keep it as simple as possible. Especially for these exercises, the answers are should be very simple, so if you find something that looks extremely complicated then try look for something simpler. You can even search on YouTube for videos explaining these concepts because there are great resources published on YouTube for people learning to write code. One last point is that you don't have to feel overwhelmed by this. If you are getting nowhere and feeling frustrated then take a break and come back to the problem later. If you are still not finding a solution then move on the exercise hint 2.
 
-### Exercise hint 2
+### Exercise 1 hint 2
 Read the exercise hint 2 fully before trying anything. In order to write Python code, you need to install Python on your local machine, create a `.py` file which contains the code you want to run and execute the code via the command line (or terminal). For example, you can create a file called `hello_world.py` and run it from the command line using the following command `python hello_world.py`. There are a few steps in this process, but each step could have several problems. For example, it won't work if you don't have Python installed on your computer. If the `hello_world.py` file is not in the correct directory then it also won't work. If you haven't written the commands correctly in the file, then it won't run properly. If you haven't got the right version of Python then you might have to use `python3 hello_world.py`, so `python hello_world.py` won't work in this case. You might not even know what a command line is, so this simple task can seem overwhelming again even if you've done all the preparation as laid out in the previous lessons. 
 
 Well then what can we do if even the most simple exercise is so complicated? We take a look at the original question which is:
@@ -93,7 +93,7 @@ In the the exercise there is no mention of installing anything on your local mac
 
 Of course, the complexity of these environment differs from website to website, but usually the basic functionality works well. So, the easiest way to solve the current exercise is to look for online Python editors. This eliminates the need to install anything on your local machine and it also eliminates errors that could be caused from different operating systems (Window, Linux or MacOS). If you have made it to this point and you still cannot solve the problem then take a break, do something else and come back to it with some fresh eyes. If you are still have trouble after that, then go on the exercise hint 3 where I will provide a solution to this problem.
 
-### Exercise hint 3 (solution)
+### Exercise 1 hint 3 (solution)
 The easiest way to do this exercise is to simply search "online Python editor" on Google and the first few results will show you such an editor. Here are the websites that I got when I searched this phrase [Programiz](https://www.programiz.com/python-programming/online-compiler/), [Online Python](https://www.online-python.com/) and [OnlineGDB](https://www.onlinegdb.com/online_python_compiler). All of these websites allow you to write Python code and execute the code by pressing the run button. There you have it, you've just written some Python code. 
 
 Now that you have it running, you can play around with the code. It's always good to experiment with what's going on because I could explain to you every detail, but it might not make sense to everyone. When you are working with the code yourself, you can experiment with changing the code and observe how the results change. So a few things you could try is remove some elements of the code and see what happens. Replace the quotation marks (") with apostrophes ('), does the code still run? More importantly is it still giving the expected output? What happens when you remove the last close round bracket ())? Does the code still run or does it give an error? Can you replace the round brackets () with square brackets []? If you get an error doing this then can you draw the conclusion that for a print statement you can use round brackets and not square brackets? One final experiment you can try is deleting everything from the window and retyping it from memory. Can you get it running again or does it give an error? If it gives you can error, can you understand the error message?
@@ -124,4 +124,41 @@ This is a very simple example, but it's a good way to breakdown what is required
 |-------|------------|--------|
 | Laundry basket and dry clothes | For each item of clothing, remove it from the basket, fold it and packet away | Folded clothes in the cupboard |
 
-From the above explanation you can see the the output of step 1 and 2 form the input of step 2 and 3 respectively. Step 3 also has laundry basket, but that's perfectly fine if you have planned to do that. You realize, though, when looking through your folded clothes that there is still a stain on one of your shirts. You go through your IPO table and you find out that you didn't actually use the washing liquid, so the program ran effectively, but it didn't work as planned. Luckily, because you have written down your IPO tables, you can easily find the mistake. IPO tables are a great way to visualize thought process in a way that is easy to follow, thus easy to execute. Since you have everything written down, you can go through the plan to easily find where any mistakes could've been made that would affect the final results.
+From the above explanation you can see the the output of step 1 and 2 form the input of step 2 and 3 respectively. Step 3 also has laundry basket, but that's perfectly fine if you have planned to do that. You realize, though, when looking through your folded clothes that there is still a stain on one of your shirts. You go through your IPO table and you find out that you didn't actually use the washing liquid, so the program ran effectively, but it didn't work as planned. Luckily, because you have written down your IPO tables, you can easily find the mistake. IPO tables are a great way to visualize thought processes in a way that is easy to follow, thus easy to execute. Since you have everything written down, you can go through the plan to easily find where any mistakes could've been made that would affect the final results.
+
+## Exercise 2
+Using IPO tables you can easily breakdown a problem into its different logical steps. In the previous exercise, we've learned the simple solution of printing something to the screen. In this exercise we're going to get a bit more complicated, but if you follow the steps laid out in the beginning (decomposition, pattern recognition, abstraction and algorithmic thinking) together with IPO tables, you should have at least some idea of what to do for the next exercise. We discussed that it's important to understand why you are doing a task to help you keep focus on the ultimate goal. However, this is difficult when doing exercises because the exercise itself has no purpose other than doing it. So for the sake of of the exercise, I will provide a **why** to your task. Let's image you want to find the 10 most common words in a certain text (in Python text data is called a string), you would do the following:
+
+**Step 1**
+| Input | Processing | Output |
+|-------|------------|--------|
+| String | Assign string to a variable | variable |
+
+**Step 2**
+| Input | Processing | Output |
+|-------|------------|--------|
+| Variable | Make a list of all the words in the variable by using split() | List of words |
+
+**Step 3**
+| Input | Processing | Output |
+|-------|------------|--------|
+| List of words | Count all the words | List of words together with how many times they appear in the text (frequency) |
+
+**Step 4**
+| Input | Processing | Output |
+|-------|------------|--------|
+| List of words together with how many times they appear in the text (frequency) | Sort the words from highest to lowest frequency | Sorted list of words |
+
+**Step 5**
+| Input | Processing | Output |
+|-------|------------|--------|
+| Sorted list of words | Print first 10 to the screen | 10 most common words |
+
+As you can see from the above steps, we have broken down the problem into 5 simple steps that need to be followed. The processing part of each IPO table is what you need to actually program. So you would need to figure out how to write code for the following:
+  1. How to assign a string to a variable in Python?
+  2. How to make a list by using split() in Python?
+  3. How to count the frequency of words (in a list) in Python?
+  4. How to sort a list of words in Python?
+  5. How to display the first 10 items in a list in Python?
+
+There is an easy breakdown of what actually needs to be done. As with the previous exercise, you probably don't know what a list is in Python, but that's okay because you have the guidelines available to figure it out. As with the previous exercise, try from number 1 to number 5 and if you get stuck then search around for answers. I will give three hints again together with the answer for those who cannot progress, but the purpose of the exercise is to move step by step through the tasks and search for those parts you don't understand.
