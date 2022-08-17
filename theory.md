@@ -176,3 +176,19 @@ If we go back to the print("Hello world!") exercise from before, we can use the 
 
 
 If you weren't able to figure out the first sentence on your own and the above explanation helped you to understand then there is a small exercise that you can do. Since the purpose of this course is to develop independent thinking, the real goal isn't to explain the concepts to you, but rather to point them out so you can find out what they mean. In the above case, there is a step-by-step explanation, but you can still develop independent thinking by looking for verification of this information. If you search these words do you find the same explanations? Are the explanations that I gave accurate to your understanding? Doing this when you get an explanation can still help you be better at independent thinking and finding answers for yourself - which is the basis of computational thinking.
+
+### Exercise 2 hint 2
+Hopefully you have figured out how to assign text to a variable, but in case you haven't then it works as follows. Replace the three dots `...` with whatever text you are using making sure there are no double apostrophes in your text. Double apostrophes in Python indicate that whatever you have between them is text, so if you have double apostrophes then it will cut your text at that point and probably will raise an error.
+
+`sentence = "..."`
+
+With your variable called `sentence` you now have a reference to the text that you want to work with. We can take a look at the IPO table we wrote down for step 2 and see what we need to do with this variable. We need to get a list of words from the variable, so we need to think of what that means practically. A word is an element of a sentence which - in English at least - has the characteristic of a space before and after the word (this is also referred to as a white space). So, if we can isolate each individual word and add that to a list then we have a list of all of the words. Luckily in Python there is a function called `split` which takes a string, splits it at whichever character you specify and returns a list. You need to assign it to a new variable because if you split the sentence variable without assigning it then it will just display the list, but not keep it in memory. Here is how you can do this:
+
+`sentence_words_list = sentence.split()`
+
+There default setting is to split it at each white space, but you can change that to whichever character you want in case you want to split it on a different character. 
+
+`sentence_words_list = sentence.split(".")` (this splits it on each full stop)
+`sentence_words_list = sentence.split(". ")` (this splits it on each full stop followed by a white space)
+
+Splitting on a white full stop followed by a white space is a very quick way to split into sentences (although not very accurate, since it will miss question marks, exclamation marks, etc). Very aware that when you specify a character to split, it must be between apostrophes (double or single). For this exercise, we only need the default setting of splitting at the white space, since we need the individual words. After doing this, we now have a list of words, but it won't be perfect i.e. there is still punctuation and capital letters. For now, we don't have to worry about that because we want to get everything working before we evaluate the finer details. One part of writing code that is beneficial is to build something as quick as possible then make changes afterwards. The quick version of the code acts as a baseline, so you can see when you make changes how those changes affect the overall results of the program. 
