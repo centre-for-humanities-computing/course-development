@@ -204,3 +204,39 @@ sentence_words_list_counted = Counter(sentence_words_list)
 ```
 
 Now there is a slight challenge here that you can try solve before moving on to the next hint. `sentence_words_list_counted` is not actually a list, but it's a Counter object. How can you work with Counter objects?
+
+### Exercise 2 hint 4 (solution)
+At this point, if you've managed to do the exercise using the Counter object then it's quite simple to finish the rest of the steps and output the top 10 words. All you need to do is is the following:
+
+`print(sentence_words_list_counted.most_common())` 
+
+This will display the most common words together with their frequencies, however, if we want to get only the 10 most frequent words then we can simply specify that as an argument as follow. If you don't know what an argument is then search "what is an argument in Python?" and see if you can figure out which part of the following code is the argument.
+
+`print(sentence_words_list_counted.most_common(10))`
+
+In case you couldn't figure out what the argument was, it's the 10 in the above example. The argument in a Python function is whatever is between the parentheses. For example, in the above case there are actually two functions:
+
+1. `print()`
+2. `sentence_words_list_counted.most_common()`
+
+In the case print (function 1), the argument is `sentence_words_list_counted.most_common()` (function 2) and the argument of function 2 is 10. You can pass any whole number in function 2 as an argument as long as it's smaller then the number of words in the list. If we had to write what it's doing into plain English is would be as follows: `most_common()` displays all the words in `sentence_words_list_counted`, but as a list and not a Counter object. If you add an argument (in this case 10) then it displays only the top 10. 
+
+Using the Counter module is a quick and easy way to solve the problem, but if we wanted to sort the list ourselves, how could we do that? We know that `sentence_words_list_counted.most_common()` without any arguments gives us the list of words with their frequencies. Let's create a new variable and assign that list to the new variable.
+
+`top_10_words = sentence_words_list_counted.most_common()`
+
+`top_10_words` is a normal Python list that contains where each element is a tuple (if you don't know what a tuple is then search "what is a tuple in Python?" to find out). The first part of the tuple is the word and the second part of the tuple is the frequency of the word. If we take a step back and think about sorting again, there are a few ways we could sort a list like this: by the frequencies, alphabetically by the words, and we can do that from biggest to smallest (descending) or some smallest to biggest (ascending) order.  The following code will display the list sorted in alphabetical order.
+
+`print(sorted(top_10_words, lambda x: x[0]))`
+
+The next code will sort and display the code in reverse alphabetical order
+
+`print(sorted(top_10_words, lambda x: x[0], reverse=True))`
+
+So, we have the following results:
+1. Sorted from biggest to smallest by frequency: `print(sorted(top_10_words, lambda x: x[0]))`
+2. Sorted from smallest to biggest by frequency: ?
+3. Sorted alphabetically: `print(sorted(top_10_words, lambda x: x[0]))`
+4. Sorted reverse alphabetically: `print(sorted(top_10_words, lambda x: x[0], reverse=True))`
+
+Can you figure out number 2 (sorted from smallest to biggest by frequency)?
